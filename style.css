@@ -150,6 +150,9 @@ blockquote .svg-inline--fa{
 .clients hr{
   border-top: 0.05rem solid #1EBBA3;
 }
+hr{
+  border-top: 0.05rem solid #1EBBA3;
+}
 footer{
   background-color: #40474e;
   color: white;
