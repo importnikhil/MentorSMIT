@@ -17,12 +17,12 @@ body{
  .navbar{
 text-transform: uppercase;
 font-weight: 700;
-font-size: .9rem;
+font-size: .7rem;
 letter-spacing: .1rem;
 background: rgba(0, 0, 0, 0.2)!important;
  }
 .navbar-brand img{
-  height: 2 rem;
+  height: 1 rem;
 }
 .navbar-nav li{
   padding-right: .7rem;
