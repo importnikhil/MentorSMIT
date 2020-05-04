@@ -121,6 +121,11 @@ body
    }    
 }
 
+@media (max-width: 560px) {
+    .showcase::after {
+      height: 50vh;
+    }
+
 .button {
     display: inline-block;
     border-radius: 4px;
