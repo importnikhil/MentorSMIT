@@ -118,7 +118,7 @@ body
     transform: rotate(180deg) translateY(-60px);
     opacity: 1;
 }
-@media (max-width: 768px)
+@media (max-width: 500px)
 {
    .container .box
    {
