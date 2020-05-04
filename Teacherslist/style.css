@@ -1,9 +1,9 @@
 
 body
 {
-   margin: 50px;
+   margin: 70px;
    padding: 0;
-   display: flex;
+   /* display: flex; */
    justify-content: center;
    align-items: center;
    height: 100%;
@@ -13,8 +13,7 @@ body
 }
 .container
 {
-    margin-bottom: 50px;
-    width: 1200x;
+    width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));
@@ -25,6 +24,7 @@ body
 }
 .container .box
 {
+    margin-bottom: 50px;
     position: relative;
     padding: 80px 40px 40px;
     transition: 0.5s;
