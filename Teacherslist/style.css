@@ -113,7 +113,7 @@ body
     transform: rotate(180deg) translateY(-60px);
     opacity: 1;
 }
-@media (max-width: 768px)
+@media (max-width: 500px)
 {
    .container .box
    {
@@ -121,10 +121,10 @@ body
    }    
 }
 
-@media (max-width: 560px) {
+/* @media (max-width: 560px) {
     .showcase::after {
       height: 50vh;
-    }
+    } */
 
 .button {
     display: inline-block;
