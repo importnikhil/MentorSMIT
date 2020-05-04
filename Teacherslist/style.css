@@ -1,6 +1,7 @@
 
 body
 {
+    max-width: 100%;
    margin: 70px;
    padding: 0;
    display: flex;
@@ -31,6 +32,7 @@ width: 100%;
 } */
 .container
 {
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
     display: grid;
@@ -133,7 +135,7 @@ width: 100%;
     opacity: 1;
 }
 
-@media (max-width: 500px)
+@media (max-width: 600px)
 {
     .container .box
    {
@@ -143,7 +145,8 @@ width: 100%;
        flex-grow: 1; */
        margin-bottom: 0px ;
         width: auto;
-      margin-top: 80px;
+      margin-top: 40px;
+      flex-direction: column;
    }    
 }
 
