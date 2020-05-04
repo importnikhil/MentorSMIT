@@ -13,6 +13,7 @@ body
 }
 .container
 {
+    margin-bottom: 50px;
     width: 1200x;
     margin: 0 auto;
     display: grid;
@@ -117,6 +118,7 @@ body
 {
    .container .box
    {
+       margin-bottom: 0px ;
         width: 100%;
       margin-top: 80px;
    }    
