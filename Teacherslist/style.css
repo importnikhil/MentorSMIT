@@ -135,7 +135,7 @@ width: 100%;
     opacity: 1;
 }
 
-@media (max-width: 600px)
+ @media (max-width: 560px)
 {
     .container .box
    {
@@ -143,12 +143,16 @@ width: 100%;
        /* flex-wrap: wrap ; */
         /* flex-direction: column;
        flex-grow: 1; */
+       flex-direction: row;
+       flex-grow: 1;
        margin-bottom: 0px ;
         width: auto;
       margin-top: 40px;
       flex-direction: column;
    }    
 }
+
+
 
 /* @media (max-width: 560px) {
     .showcase::after {
