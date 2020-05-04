@@ -4,7 +4,8 @@ body
    margin: 70px;
    padding: 0;
    display: flex;
-   flex-direction: column;
+   /* flex-wrap: wrap;
+   flex-direction: row; */
    justify-content: center;
    align-items: center;
    height: 100%;
@@ -12,11 +13,24 @@ body
    font-family: sans-serif;
    
 }
+/* .contain 
+{
+width: 100%;
+display:flex;
+flex-wrap: wrap;
+flex-direction: row;
+flex-grow: 1;
+width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100%;
+} */
 .container
 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
     width: 100%;
     margin: 0 auto;
     display: grid;
@@ -35,17 +49,17 @@ body
     text-align: center;
     background: #fff;
 }
-.container .box:hover
+.contan .container .box:hover
 {
     background: #cd63e7;
 }
-.container .box p
+.contan .container .box p
 {
     margin: 0;
     padding: 0;
     transition: 0.5s;
 }
-.container .box h4
+.contan .container .box h4
 {
     margin: 20px 0 0;
     padding: 0;
@@ -56,20 +70,20 @@ body
     line-height: 20px;
     text-transform: uppercase;
 }
-.container .box h4 span
+.contan .container .box h4 span
 {
     font-weight: 600;
     font-size:14px;
     color:#c5c5c5;
     transition: 0.5s;
 }
-.container .box:hover p,
-.container .box:hover h4,
-.container .box:hover h4 span
+.contan .container .box:hover p,
+.contan .container .box:hover h4,
+.contan .container .box:hover h4 span
 {
    color: #fff;
 }
-.container .box .imgBox
+.contan .container .box .imgBox
 {
     position: absolute;
     top: -60px;
@@ -80,7 +94,7 @@ body
     border-radius: 50%;
     overflow: hidden;
 }
-.container .box:before
+.contan .container .box:before
 {
     content: '';
     position: absolute;
@@ -93,13 +107,13 @@ body
     pointer-events: none;
     transition: 0.5s;
 }
-.container .box:hover:before
+.contan .container .box:hover:before
 {
     transform: translateY(-60px);
     opacity: 1;
  
 }
-.container .box:after
+.contan .container .box:after
 {
     content: '';
     position: absolute;
@@ -113,14 +127,15 @@ body
     transition: 0.5s;
     transform: rotate(180deg) translateY(0px);
 }
-.container .box:hover:after
+.contan .container .box:hover:after
 {
     transform: rotate(180deg) translateY(-60px);
     opacity: 1;
 }
+
 @media (max-width: 500px)
 {
-   .container .box
+    .contan .container .box
    {
        margin-bottom: 0px ;
         width: 100%;
